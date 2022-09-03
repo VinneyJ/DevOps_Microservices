@@ -1,0 +1,17 @@
+<paste log output from Kubernetes-mediated prediction, here>
+
+Error from server (AlreadyExists): pods "predictionpod" already exists
+All the pods: \n
+NAME            READY   STATUS    RESTARTS   AGE
+predictionpod   1/1     Running   0          3m56s
+pod/predictionpod condition met
+Forwarding from 0.0.0.0:8000 -> 80
+Handling connection for 8000
+
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
